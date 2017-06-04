@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 姚茂财
+title: 姚茂财个人博客
 subtitle:
 description: 知识管理，时间管理，自我管理，阅读，思维导图
 author: 姚茂财
@@ -25,7 +25,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: skip_render
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -71,3 +71,17 @@ deploy:
   type: git
   repository: https://github.com/yaomaocai/yaomaocai.github.io.git
   branch: master
+
+# 插件
+## 首页和归档页面设置不同的文章篇数
+index_generator:
+  per_page: 5
+
+archive_generator:
+  per_page: 5
+  yearly: true
+  monthly: true
+
+tag_generator:
+  per_page: 5
+

@@ -1,6 +1,8 @@
 ---
 
-title: 音乐
+title: hexo + github 搭建成功
+categories: doc
+tags: first
 ---
 第一次使用hexo + github搭建微博踩到的各种神坑
 #### 流程
@@ -20,7 +22,9 @@ hexo官方文档:https://hexo.io/zh-cn/
 ### 细节
 ###### 1.站点文件_config.yml deploy下一定要注意跟自己的github链接一致
     type: git
-    repository: https://github.com/yaomaocai/yaomaocai.github.io.git
+    repository: https://github.com/yourname/yourname.github.io.git
     branch: master
 ###### 2.在github新建仓库的时候一定要注意名称的规范
-    如:yourname.github.io
+###### 3.跟换主题后 一定要执行命令
+       $ hexo s --debug
+<img src="http://s9.knowsky.com/bizhi/l/15001-25000/2009529364934518395.jpg"></img>

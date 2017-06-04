@@ -2,14 +2,14 @@
 menu:
   Home: /
   Archives: /archives
-  音乐: /archives
+  音乐: /2017/06/04/music
   # change github and email values to your own addresses
   Github: https://github.com/yaomaocai
   联系邮箱: mailto:799787222@qq.com
-  关于: /archives
+  关于: /2017/06/04/about
   公益: /archives
-#rss: /atom.xml
-#avatar : http://a3.qpic.cn/psb?/V10qNYf00TX7C0/fpn1uKDqJxa6PMBZUtHzjsaMl.Rl1JfP*KCYN6J*XhA!/b/dIjB5MWDGwAA&bo=gAJVA7AHQAoBCgQ!&rf=viewer_4
+rss: /atom.xml
+avatar : http://a3.qpic.cn/psb?/V10qNYf00TX7C0/fpn1uKDqJxa6PMBZUtHzjsaMl.Rl1JfP*KCYN6J*XhA!/b/dIjB5MWDGwAA&bo=gAJVA7AHQAoBCgQ!&rf=viewer_4
 
 # Set to false to disable banner
 use_header_cover: true
@@ -36,7 +36,7 @@ widgets:
 
 # widget behavior
 archive_type: 'monthly'
-show_count: false
+show_count: true
 
 # favicon
 favicon: /favicon.png
