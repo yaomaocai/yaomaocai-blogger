@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 姚茂财
 subtitle:
-description:
-author: John Doe
-language:
+description: 知识管理，时间管理，自我管理，阅读，思维导图
+author: 姚茂财
+language: zh-CN
 timezone:
 
 # URL
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: Aero-Dual
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
