@@ -4,8 +4,8 @@
 
 # Site
 title: 姚茂财个人博客
-subtitle:
-description: 知识管理，时间管理，自我管理，阅读，思维导图
+subtitle: 前端知识整理
+description: 个人博客，知识管理，时间管理，自我管理，思维导图
 author: 姚茂财
 language: zh-CN
 timezone:
@@ -46,7 +46,7 @@ highlight:
 # Category & Tag
 default_category: uncategorized
 category_map:
-tag_map:
+tag_map: 标签1
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
